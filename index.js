@@ -1,12 +1,9 @@
-// Aqui aplique una clase, y un constructor, para crear los productos y sus especificaciones
 class Producto {
     constructor(nombre, precio, cantidad) {
-        this.nombre = nombre;
-        this.precio = precio;
-        this.cantidad = cantidad;
-        
-    }
-
+        this.nombre = nombre
+        this.precio = precio
+        this.cantidad = cantidad
+        }
 }
 
 let iphone11 = new Producto("Iphone 11", 500, 10)
@@ -45,7 +42,7 @@ while (seguirCompra === true) {
     } else if (producto === 5) {
         carrito.push(macbookPro.precio)
     }
-    // Tutor Luis, aca quise aplicar un metodo , pero no pude hacer que funcione
+    // Tutor Luis, aca quise aplicar un metodo (.Find), pero no pude hacer que funcione
    /*  const productoElegido= Producto.find (prod=> prod.id === producto)
     if(producto){
         totalCompra= totalCompra + productoElegido.precio
@@ -78,5 +75,3 @@ function calculartax(valor) {
 
 let valorFinalConTax = calculartax(carrito[1])
 alert('El valor final a pagar , con tax incluidos es de : ' + valorFinalConTax)
-
-console.log(carrito)
