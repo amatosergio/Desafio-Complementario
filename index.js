@@ -6,7 +6,6 @@ class Producto {
         this.id= id
     }
 }
-
 let iphone11 = new Producto("Iphone 11", 500, 10,1)
 let iphone12 = new Producto("Iphone 12", 700, 5,2)
 let iphone13 = new Producto("Iphone 13", 900, 5,3)
